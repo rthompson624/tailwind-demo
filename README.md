@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Component creation commands
+
+```
+ng generate component components/design-and-layout --module=app --change-detection=OnPush --skip-tests=true --style=css
+ng generate component components/home --module=app --change-detection=OnPush --skip-tests=true --style=css
+ng generate component components/responsive --module=app --change-detection=OnPush --skip-tests=true --style=css
+```

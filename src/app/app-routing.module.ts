@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { DesignAndLayoutComponent } from './components/design-and-layout/design-and-layout.component';
 import { ResponsiveComponent } from './components/responsive/responsive.component';
+import { AnimationComponent } from './components/animation/animation.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path: 'responsive',
     component: ResponsiveComponent
+  },
+  {
+    path: 'animation',
+    component: AnimationComponent
   }
 ];
 

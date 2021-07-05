@@ -32,4 +32,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ng generate component components/design-and-layout --module=app --change-detection=OnPush --skip-tests=true --style=css
 ng generate component components/home --module=app --change-detection=OnPush --skip-tests=true --style=css
 ng generate component components/responsive --module=app --change-detection=OnPush --skip-tests=true --style=css
+ng generate component components/animation --module=app --change-detection=OnPush --skip-tests=true --style=css
 ```
